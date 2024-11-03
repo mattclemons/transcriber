@@ -1,4 +1,3 @@
-
 import os
 import whisper
 import torch
