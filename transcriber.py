@@ -79,7 +79,7 @@ def process_playlist(playlist_url):
 if __name__ == "__main__":
     import argparse
 
-    parser = argparse.ArgumentParser(description="YouTube Video/Playlist Transcriber for M1 using yt-dlp with CPU-based Whisper transcription")
+    parser = argparse.ArgumentParser(description="YouTube Video/Playlist Transcriber using yt-dlp with CPU-based Whisper transcription")
     parser.add_argument("--video", type=str, help="URL of the single YouTube video to transcribe")
     parser.add_argument("--playlist", type=str, help="URL of the YouTube playlist to transcribe")
 
